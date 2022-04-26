@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_cursive-testimonial *{ 
+ margin:0px;
+  padding:0px;
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+		  
+.clear{ clear:both;}		  
+.uc_cursive-testimonial{ max-width:550px; margin:0 auto; padding: 20px 20px 0 20px;-webkit-box-shadow: 1px 1px 5px 0px rgba(171,166,171,1);
+-moz-box-shadow: 1px 1px 5px 0px rgba(171,166,171,1);
+box-shadow: 1px 1px 5px 0px rgba(171,166,171,1);}
+.uc_cursive-testimonial .uc_cursive-testimonial_innner{ text-align:left; padding:0px }
+.uc_cursive-testimonial .uc_cursive-testimonial_innner p{font-family: 'Satisfy', cursive; font-size:16px; padding:0px; line-height:25px;}
+.uc_cursive-testimonial .uc_cursive-testimonial_innner h2{font-family: 'Poppins', sans-serif; font-size:24px; font-weight:600;line-height: 28px; margin:10px 0 0;}
+
+.uc_cursive-testimonial .uc_cursive-testimonial_image{ width:100%;  padding: 25px 0; overflow:hidden;}
+.uc_cursive-testimonial .uc_cursive-testimonial_image .testimonial_pic{ float:left; width:50px; height:50px; margin: 0 18px 0 0;}
+.uc_cursive-testimonial .uc_cursive-testimonial_image h2{ font-size:20px;font-family: 'Montserrat', sans-serif; font-weight:700; float:left; margin:6px 0 0 ; text-transform:uppercase;}
+.uc_cursive-testimonial .uc_cursive-testimonial_image h2 span{ font-family: 'Roboto', sans-serif;display:block; font-size:16px; font-weight:400; text-transform:none;}
+
+
+@media screen and (max-width:326px){
+.uc_cursive-testimonial .uc_cursive-testimonial_innner{ text-align:center;}
+.uc_cursive-testimonial .uc_cursive-testimonial_image{ text-align:center;}
+.uc_cursive-testimonial .uc_cursive-testimonial_image .testimonial_pic{ display:inline-block; float:none; margin:0px;}
+.uc_cursive-testimonial .uc_cursive-testimonial_image h2{ width:100%; text-align:center;}
+.uc_cursive-testimonial .uc_cursive-testimonial_innner .arrow{ margin: 0 auto -22px;}
+}
+

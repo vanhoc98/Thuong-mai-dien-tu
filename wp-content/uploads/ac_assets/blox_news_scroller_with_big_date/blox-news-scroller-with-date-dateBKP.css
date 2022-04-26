@@ -1,0 +1,106 @@
+
+.blox-news-scroller-with-date-date * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-news-scroller-with-date-date{
+	font-family: inherit;
+	
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.blox-news-scroller-with-date-date .bx-wrapper {
+    background: transparent;
+    border: 0px;
+    box-shadow: none;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box{
+	overflow:hidden;
+	clear:both;
+	position:relative;
+	margin-bottom:2px;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box:last-child{
+	margin-bottom:0;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-calendar{
+	width:120px;
+	padding:30px;
+	
+	display:table-cell;
+	vertical-align:middle;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-calendar .blox-calendar-box{
+	display:table;
+	vertical-align:middle;
+	position:relative;
+	width:100%;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-calendar .blox-calendar-date{
+	color: #fff; 
+	font-size: 43px;
+	font-weight: 800;
+	line-height: normal;
+	text-align: center;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-calendar .blox-calendar-month{
+	color: #fff; 
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-scroller-content{
+	overflow:hidden;
+	width:calc(100% - 120px);
+	padding:25px;
+	
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-scroller-content .blox-heading{
+	color: #fff; 
+	font-size: 21px; 
+	font-weight: bold; 
+	line-height: 28px;
+	margin-bottom:7px;
+}
+.blox-news-scroller-with-date-date .blox-scroller-box .blox-scroller-content .blox-paragraph{
+	color: #ADB0B5; 
+	font-size: 14px; 
+	font-weight: normal; 
+	line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+
+.uc_fixed_postslider *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_fixed_postslider .uc_fps_container{
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+}
+
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide{
+	height:480px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	position:relative;
+	}
+	
+
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide:before{
+	background-color:rgba(13,17,29,0.4);
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:99;
+	content:'';
+	}	
+	
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_content{
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	z-index:100;
+	padding:20px;
+ 	}
+	
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_container_title{
+	font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+	margin:0 0 18px;
+	}
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_container_title a{
+	text-decoration:none;
+	color:inherit;
+	}	
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_container_meta{
+    font-size: 13px;
+    font-weight: 400;
+	margin:0 0 10px;
+	}
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_container_desc{
+	margin:0 0 37px;
+	}
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_cta{
+	background-color: #24e081;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px 53px 18px 53px;
+    border-radius: 50px;
+	outline:0;
+	display:inline-block;
+	font-size:16px;
+	font-weight:900;
+	text-transform:capitalize;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;   
+	}
+	
+.uc_fixed_postslider .uc_fps_container .uc_fps_slide .uc_fps_cta:hover{
+	background-color: #ea2ab6;
+    color: #ffffff;
+	}
+	
+.uc_fixed_postslider .uc_fps_container  .owl-dots{
+	text-align:center;
+	margin:30px 0;
+	}
+	
+.uc_fixed_postslider .uc_fps_container  .owl-dots .owl-dot{
+	display:inline-block;
+	background-color:#d9dce5;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	margin:0 5px;
+	outline:0;
+	}
+	
+.uc_fixed_postslider .uc_fps_container  .owl-dots .owl-dot.active{
+	background-color:#1c0c71;
+	}																					  				
+		

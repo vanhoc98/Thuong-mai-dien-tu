@@ -1,0 +1,51 @@
+
+.uc_circle_testimonial *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_circle_testimonial .uc_circle_testimonial_box{
+	text-align:center;
+	line-height: 24px;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(22, 37, 50);
+	padding:30px;
+}
+.uc_circle_testimonial .uc_circle_testimonial_box .uc_author{
+	background: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(32, 221, 253);
+    border-radius: 100%;
+    height: 110px;
+    margin: 0px auto 20px;
+    padding: 12px;
+    position: relative;
+    width: 110px;
+}
+.uc_circle_testimonial .uc_circle_testimonial_box img{
+	width:80px;
+	height:80px;
+	border-radius: 50%;	
+}
+.uc_circle_testimonial .uc_circle_testimonial_box .uc_tes-author-name {
+    font-size: 14px;
+    margin: 5px auto;
+    text-transform: capitalize;
+}
+.uc_circle_testimonial .uc_circle_testimonial_box .uc_tes-author-name span {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.uc_circle_testimonial .uc_circle_testimonial_box blockquote {
+    color: rgb(22, 37, 50);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 40px auto;
+    min-height: 80px;
+    padding: 0;
+}

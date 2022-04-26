@@ -1,0 +1,97 @@
+.uc-gradient-stripe-pricing-box * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.uc-gradient-stripe-pricing-box{
+    font-weight: 400;
+	background: #fff;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    padding: 48px 0px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #787a81;
+    border-radius: 3px;
+	}
+
+.uc-gradient-stripe-pricing-box .uc-icon{
+	font-size:36px;
+	color:#ff6f34;
+	}	
+	
+.uc-gradient-stripe-pricing-box .uc-title{
+	font-size:36px;
+	line-height: 26px;
+	font-weight: 600;
+	margin:22px 0px 36px;
+	color: #282c37;
+	}
+	
+
+.uc-gradient-stripe-pricing-box .uc-price-box{
+	background: rgba(255,147,52,1);
+    background: -moz-linear-gradient(top, rgba(255,147,52,1) 0%, rgba(255,110,52,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,147,52,1)), color-stop(100%, rgba(255,110,52,1)));
+    background: -webkit-linear-gradient(top, rgba(255,147,52,1) 0%, rgba(255,110,52,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,147,52,1) 0%, rgba(255,110,52,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,147,52,1) 0%, rgba(255,110,52,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,147,52,1) 0%, rgba(255,110,52,1) 100%);
+    color:#fff;
+	font-size: 56px;
+    line-height: 56px;
+    font-weight: 400;
+	margin:0 0 28px;
+	padding:35px 0px 20px;
+	}
+.uc-gradient-stripe-pricing-box .uc-price-box .uc-day{
+	font-size:24px;
+	position:relative;
+	bottom:15px;
+	margin:0 0 0 8px;
+	}
+.uc-gradient-stripe-pricing-box .uc-content{
+	font-size: 16px;
+    line-height: 36px;
+    color: #787a81;
+	font-weight:400;
+	margin:24px 0px;
+	padding:0 56px;
+	}
+.uc-gradient-stripe-pricing-box .uc-note{
+	font-size: 16px;
+    line-height: 20px;
+    color: #787a81;
+	font-weight:400;
+	padding:50px 56px 5px;
+	font-style:italic;
+   }
+   
+.uc-gradient-stripe-pricing-box .uc-btn{
+	background: #ff6f34;
+	font-size: 16px;
+	color:#ffffff;
+	text-decoration:none;
+    font-weight: 700;
+    line-height: 42px;
+    padding: 0 28px;
+    display: inline-block;
+	border: 2px solid transparent;
+	transition: .25s;
+	border-radius: 4px;
+	}
+	
+.uc-gradient-stripe-pricing-box .uc-btn:hover{
+	background: #fff;
+	color:#ff6f34;
+	border-color:#ff6f34;
+	}	
+.uc-gradient-stripe-pricing-box .uc-btn:hover .uc-gradient-stripe-pricing-box .uc-btn .uc-btn-icon{
+	color:#ff6f34;
+	}	
+.uc-gradient-stripe-pricing-box .uc-btn	.uc-btn-icon{
+	margin:0 12px 0 0;
+	}	

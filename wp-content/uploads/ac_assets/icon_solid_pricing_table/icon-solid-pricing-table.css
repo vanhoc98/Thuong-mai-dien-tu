@@ -1,0 +1,111 @@
+
+.uc_icon_solid_pricing_table *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container{
+	text-align:center;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_header{
+	background-color:#2046f2;
+	padding:10px;
+	height:172px;
+	position:relative;
+	z-index:99;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_header_content{
+	position:relative;
+	top:40%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_header .uc_ispt_header_title{
+	font-weight:700;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:18px;
+	margin:0 0 5px;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_header .uc_ispt_header_subtitle{
+	font-weight:400;
+	color:#fff;
+	font-size:16px;
+}
+
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main{
+	margin:-54px 0 0;
+	position:relative;
+	z-index:100;
+	padding:0 20px 20px;
+	}
+
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_container_icon{
+	background-color:#fff;
+	color:#000000;
+	width:108px;
+	height:108px;
+	margin:0 auto 20px;
+	border-radius:50%;
+	text-align:center;
+	line-height:108px;
+	font-size:55px;
+	box-shadow:0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_container_price{
+	color:#2046f2;
+	text-transform:uppercase;
+	font-size:35px;
+	font-weight:700;
+	margin:0 0 20px;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_container_price .uc_ispt_sub{
+	font-size:15px;
+	display:inline-block;
+	font-weight:400;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_container_list{
+	margin:0 0 20px;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_container_list .uc_ispt_container_list_row{
+	color:#aaaaaa;
+	font-size:14px;
+	margin:0 0 15px;	
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_container_list .uc_ispt_container_list_row:last-child{
+	margin-bottom:0;
+}
+	
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_btn{
+	background-color:#2046f2;
+	display:inline-block;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	text-decoration:none;
+	padding:11px 22px 9px;
+	height:40px;
+	line-height:20px;
+	border-radius:20px;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.uc_icon_solid_pricing_table .uc_ispt_container .uc_ispt_container_main .uc_ispt_btn:hover{
+	background-color:#2743bf;	
+}															  				
+		

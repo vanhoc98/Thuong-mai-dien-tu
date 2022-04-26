@@ -1,0 +1,110 @@
+.uc_bold_color_price_table * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_bold_color_price_table .uc_content_box{
+	background-color:#fff;
+	margin:0 auto;
+	border-bottom:3px solid #ff3366;
+	box-shadow: 0 0 6px -3px #707070;
+}
+
+.uc_bold_color_price_table .uc_title_head{
+	background-color:#ff3366;
+	color:#ffffff;
+	position:relative;
+	padding:50px 20px;
+	text-align:center;
+}
+
+.uc_bold_color_price_table .uc_title_head:after{
+	position:absolute;
+	background-image:url(header-shadow.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center top;
+	display:block;
+	width:100%;
+	opacity:0.8;
+	bottom:-50px;
+	left:0;
+	height:50px;
+	content:"";
+}
+
+.uc_bold_color_price_table .uc_title_head h3{
+	font-size:18px;
+	font-weight:700;
+	line-height:20px;
+	color:#ffffff;
+	margin:0;
+}
+
+.uc_bold_color_price_table .uc_title_head h6{
+	font-size:14px;
+	font-weight:400;
+	color:#ffffff;
+	line-height:16px;
+	text-transform:uppercase;
+	margin:5px 0 15px;
+}
+
+.uc_bold_color_price_table .uc_title_head p{
+	margin:0;
+}
+
+.uc_bold_color_price_table .uc_title_head p strong{
+	font-size:14px;
+	font-weight:700;
+	line-height:24px;
+	color:#ffffff;
+}
+
+.uc_bold_color_price_table .uc_content{
+	padding:45px 35px;
+	text-align:center;
+}
+
+.uc_bold_color_price_table .uc_content ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.uc_bold_color_price_table .uc_content ul li{
+	font-size:12px;
+	margin:0 0 15px;
+	line-height:17px;
+	color:#636363;
+}
+
+.uc_bold_color_price_table .uc_content ul li:last-child{
+	margin:0;
+}
+
+.uc_bold_color_price_table .uc_content a.uc_btn{
+	font-size:12px;
+	line-height:18px;
+	font-weight:700;
+	color:#ffffff;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:inline-block;
+	padding:8px 40px;
+	background-color:#ff3366;
+	margin:40px 0 0;
+	border:1px solid #e63360;
+	border-radius:60px;
+	transition:all 0.25s ease 0s;
+	-webkit-transition:all 0.25s ease 0s;
+	-moz-transition:all 0.25s ease 0s;
+	-ms-transition:all 0.25s ease 0s;
+}
+
+.uc_bold_color_price_table .uc_content a.uc_btn:hover{
+	background-color:#e63360;
+}

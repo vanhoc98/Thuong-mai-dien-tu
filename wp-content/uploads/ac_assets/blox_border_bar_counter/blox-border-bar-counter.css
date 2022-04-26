@@ -1,0 +1,41 @@
+.blox-border-bar-counter * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-border-bar-counter{
+	font-family: inherit;
+	font-size:17px;
+	line-height:22px;
+	color:#000000;
+}
+.blox-border-bar-counter .blox-bar-row{
+	padding:10px 0px;
+	}
+.blox-border-bar-counter .blox-bar-title{
+	float:left;
+	} 
+.blox-border-bar-counter .blox-border-bar-percentage{
+	float:right;
+	}
+.blox-border-bar-counter .blox-bar-heading{
+	overflow:hidden;
+	padding:10px 0px;
+	}
+.blox-border-bar-counter .blox-border-bar{
+	padding:7px;
+	display:block;
+	border-radius:16px;
+	width:100%;
+	}
+.blox-border-bar-counter .blox-border-progress-bar{
+	height:16px;
+	display:block;
+	border-radius:16px;
+	width: 0;
+	-webkit-transition: width 0.5s ease;
+       -o-transition: width 0.5s ease;
+          transition: width 0.5s ease;
+	}
